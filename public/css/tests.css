@@ -1,0 +1,63 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    padding: 2em;
+    overflow: auto;/*
+    skroll
+      */
+}
+
+.tests>div>img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
+}
+
+.tests>div>div {
+    height: 50%;
+    margin: 1em;
+    color: #49637a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tests>div {
+    border: 1px solid gray;
+    border-radius: 1em 1em 0 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section.test-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.test-form>form {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+
+}
+.test-form > form > button[type="submit"] {
+    background: #659F9F 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 6px 6px #00000029, 0px 6px 6px #00000029;
+    border-radius: 19px;
+    height: 40px;
+    width: 30%;
+    border: none;
+    color: white;
+    margin: 1em;
+    line-height: 2.5em;
+    cursor: pointer;
+}
+
+.social-section > i:hover {
+    cursor: pointer;
+}
